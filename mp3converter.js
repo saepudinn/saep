@@ -55,7 +55,6 @@ function tryAnother(url) {
 						'');
 //		$('#status').append("file is being downloaded and converted. could be 15 seconds to 3-4 minutes. Please, hold on..<br>");
 //		checkConvState();
-		$('#status').append('<strong>download source 1</strong>:<br><iframe sandbox="allow-scripts" class="embed-responsive-item" style="height:60px;border:0;overflow:hidden;" scrolling="no" src="https://break.tv/widget/button/?link=https://www.youtube.com/watch?v='+video+'&color=DA4453&text=333"></iframe>');
 		$('#status').append('<br><strong>download source 2</strong>:<br><iframe class="embed-responsive-item" style="width:300px;height:100px;border:0;overflow:hidden;" scrolling="no" src="https://api.savemedia.website/button/?url=https://www.youtube.com/watch?v='+video+'"></iframe>');
 
 	} else {
