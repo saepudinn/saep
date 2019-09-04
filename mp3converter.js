@@ -50,12 +50,12 @@ function tryAnother(url) {
 	if (video && video.length == 11)	{ //trying method 2 
 		$('#status').html(
 //						'<a href=http://youtubemp4.site/?url=https://youtu.be/'+video+' target=_blank><strong>Download This Video</strong></a>.'+
-						 'checking mp3 converter api 1, 2 & 3. <strong>ready!!</strong><br>'+
+						 'Checking mp3 converter. <strong>ready!!</strong><br>'+
 //						'no popups guaranteed, thanks &hearts;<a href=https://savetube.org target=_blank><strong>savetube</strong></a>&hearts;<br><br>'+
 						'');
 //		$('#status').append("file is being downloaded and converted. could be 15 seconds to 3-4 minutes. Please, hold on..<br>");
 //		checkConvState();
-		$('#status').append('<br><strong>download source 2</strong>:<br><iframe class="embed-responsive-item" style="width:300px;height:100px;border:0;overflow:hidden;" scrolling="no" src="https://api.savemedia.website/button/?url=https://www.youtube.com/watch?v='+video+'"></iframe>');
+		$('#status').append('<br><strong>Download Mp3</strong>:<br><iframe class="embed-responsive-item" style="width:300px;height:100px;border:0;overflow:hidden;" scrolling="no" src="https://api.savemedia.website/button/?url=https://www.youtube.com/watch?v='+video+'"></iframe>');
 
 	} else {
 		$('#status').append("this is not a valid youtube video url. try again, please.<br>");
